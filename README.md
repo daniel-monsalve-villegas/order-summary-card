@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop](./screenshots/desktop.png)
-[Mobile](./screenshots/mobile.png)
-[Active](./screenshots/2022-active.png)
+![Desktop](./screenshots/desktop.png)
+![Mobile](./screenshots/mobile.png)
+![Active](./screenshots/2022-active.png)
 
 ## My process
 
