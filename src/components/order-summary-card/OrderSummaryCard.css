@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  /*Primary*/
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+
+  /*Neutral*/
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+main {
+  margin: 4em 1.5em;
+  border-radius: 1.5em;
+  background-color: white;
+  font-family: 'Red Hat Display';
+}
+
+header {
+  border-radius: 3em;
+}
+@media (max-width: 375px) {
+  header {
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+    border-top-right-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+  }
+
+  section {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-bottom: 2em;
+  }
+  .title {
+    font-weight: 900;
+  }
+
+  section p {
+    line-height: 1.5em;
+    color: var(--desaturatedBlue);
+    font-size: 17px;
+    margin: 0 1em 2em 1em;
+  }
+
+  .plan {
+    background-color: var(--veryPaleBlue);
+    margin: 0 1em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  }
+
+  .boldi {
+    font-weight: 700;
+    color: black;
+    align-self: flex-start;
+    margin-right: 2em;
+  }
+
+  .boldi p {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .plan a {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .plan a:hover {
+    cursor: pointer;
+    color: var(--darkBlue);
+    text-decoration: none;
+  }
+
+  .blue {
+    background-color: var(--brightBlue);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .blue:hover {
+    cursor: pointer;
+    background-color: #766CF1;
+  }
+
+  #cancel {
+    text-decoration: none; 
+    font-weight: 900;
+    color: var(--desaturatedBlue);
+  }
+
+  #cancel:hover {
+    cursor: pointer;
+    color: black;
+  }
+}
